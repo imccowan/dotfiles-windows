@@ -80,4 +80,4 @@ PathFull="\W"
 NewLine="\n"
 Jobs="\j"
 
-export PS1=$Time12h' \[\033[01;32m\]\h\[\033[01;37m\] \w\[\033[1;33m\]$(__git_ps1 "(%s)") \[\033[01;37m\]$\[\033[00m\] '
+export PS1=$Time12h" ${BGreen}"'\h'"$BWhite $PathShort$BYellow"'$(__git_ps1 "(%s)") '"$BWhite$Color_Off"' '
