@@ -1,7 +1,4 @@
-
-
-
-path="$HOME/dotfiles-windows"
+path="$HOME/dotfiles-windows/dotfiles-windows"
 echo "$path"
 export PATH="$path/env:$PATH"
 
