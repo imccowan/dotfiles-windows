@@ -80,4 +80,4 @@ PathFull="\W"
 NewLine="\n"
 Jobs="\j"
 
-export PS1=$Time12h" ${BGreen}"'\h'"$BWhite $PathShort$BYellow"'$(__git_ps1 "(%s)") '"$BWhite$Color_Off"' '
+export PS1=$Time12h" $BGreen $PathShort$BYellow"'$(__git_ps1 "(%s)")\nλ'"$BWhite$Color_Off"' '
